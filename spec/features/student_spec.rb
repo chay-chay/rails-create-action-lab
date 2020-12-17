@@ -15,6 +15,7 @@ describe 'Multiple students' do
     visit students_path
     expect(page).to have_content(/Daenerys|Lindsey/)
   end
+  
 end
 
 describe 'form page' do
